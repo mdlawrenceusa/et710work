@@ -1,4 +1,4 @@
-meta.foundation-version {
+﻿meta.foundation-version {
   font-family: "/5.5.2/"; }
 
 meta.foundation-mq-small {
@@ -1437,7 +1437,7 @@ span.postfix, label.postfix {
   border-color: #cccccc; }
 
 /* We use this to get basic styling on all basic form elements */
-input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+input[type=text], input[type=password], input[type=date], input[type=datetime], input[type=datetime-local], input[type=month], input[type=week], input[type=email], input[type=number], input[type=search], input[type=tel], input[type=time], input[type=url], input[type=color], textarea {
   -webkit-appearance: none;
   -moz-appearance: none;
   border-radius: 0;
@@ -1462,17 +1462,17 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   -ms-transition: border-color 0.15s linear, background 0.15s linear;
   -o-transition: border-color 0.15s linear, background 0.15s linear;
   transition: border-color 0.15s linear, background 0.15s linear; }
-  input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="color"]:focus, textarea:focus {
+  input[type=text]:focus, input[type=password]:focus, input[type=date]:focus, input[type=datetime]:focus, input[type=datetime-local]:focus, input[type=month]:focus, input[type=week]:focus, input[type=email]:focus, input[type=number]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=time]:focus, input[type=url]:focus, input[type=color]:focus, textarea:focus {
     background: #fafafa;
     border-color: #999999;
     outline: none; }
-  input[type="text"]:disabled, input[type="password"]:disabled, input[type="date"]:disabled, input[type="datetime"]:disabled, input[type="datetime-local"]:disabled, input[type="month"]:disabled, input[type="week"]:disabled, input[type="email"]:disabled, input[type="number"]:disabled, input[type="search"]:disabled, input[type="tel"]:disabled, input[type="time"]:disabled, input[type="url"]:disabled, input[type="color"]:disabled, textarea:disabled {
+  input[type=text]:disabled, input[type=password]:disabled, input[type=date]:disabled, input[type=datetime]:disabled, input[type=datetime-local]:disabled, input[type=month]:disabled, input[type=week]:disabled, input[type=email]:disabled, input[type=number]:disabled, input[type=search]:disabled, input[type=tel]:disabled, input[type=time]:disabled, input[type=url]:disabled, input[type=color]:disabled, textarea:disabled {
     background-color: #DDDDDD;
     cursor: default; }
-  input[type="text"][disabled], input[type="text"][readonly], fieldset[disabled] input[type="text"], input[type="password"][disabled], input[type="password"][readonly], fieldset[disabled] input[type="password"], input[type="date"][disabled], input[type="date"][readonly], fieldset[disabled] input[type="date"], input[type="datetime"][disabled], input[type="datetime"][readonly], fieldset[disabled] input[type="datetime"], input[type="datetime-local"][disabled], input[type="datetime-local"][readonly], fieldset[disabled] input[type="datetime-local"], input[type="month"][disabled], input[type="month"][readonly], fieldset[disabled] input[type="month"], input[type="week"][disabled], input[type="week"][readonly], fieldset[disabled] input[type="week"], input[type="email"][disabled], input[type="email"][readonly], fieldset[disabled] input[type="email"], input[type="number"][disabled], input[type="number"][readonly], fieldset[disabled] input[type="number"], input[type="search"][disabled], input[type="search"][readonly], fieldset[disabled] input[type="search"], input[type="tel"][disabled], input[type="tel"][readonly], fieldset[disabled] input[type="tel"], input[type="time"][disabled], input[type="time"][readonly], fieldset[disabled] input[type="time"], input[type="url"][disabled], input[type="url"][readonly], fieldset[disabled] input[type="url"], input[type="color"][disabled], input[type="color"][readonly], fieldset[disabled] input[type="color"], textarea[disabled], textarea[readonly], fieldset[disabled] textarea {
+  input[type=text][disabled], input[type=text][readonly], fieldset[disabled] input[type=text], input[type=password][disabled], input[type=password][readonly], fieldset[disabled] input[type=password], input[type=date][disabled], input[type=date][readonly], fieldset[disabled] input[type=date], input[type=datetime][disabled], input[type=datetime][readonly], fieldset[disabled] input[type=datetime], input[type=datetime-local][disabled], input[type=datetime-local][readonly], fieldset[disabled] input[type=datetime-local], input[type=month][disabled], input[type=month][readonly], fieldset[disabled] input[type=month], input[type=week][disabled], input[type=week][readonly], fieldset[disabled] input[type=week], input[type=email][disabled], input[type=email][readonly], fieldset[disabled] input[type=email], input[type=number][disabled], input[type=number][readonly], fieldset[disabled] input[type=number], input[type=search][disabled], input[type=search][readonly], fieldset[disabled] input[type=search], input[type=tel][disabled], input[type=tel][readonly], fieldset[disabled] input[type=tel], input[type=time][disabled], input[type=time][readonly], fieldset[disabled] input[type=time], input[type=url][disabled], input[type=url][readonly], fieldset[disabled] input[type=url], input[type=color][disabled], input[type=color][readonly], fieldset[disabled] input[type=color], textarea[disabled], textarea[readonly], fieldset[disabled] textarea {
     background-color: #DDDDDD;
     cursor: default; }
-  input[type="text"].radius, input[type="password"].radius, input[type="date"].radius, input[type="datetime"].radius, input[type="datetime-local"].radius, input[type="month"].radius, input[type="week"].radius, input[type="email"].radius, input[type="number"].radius, input[type="search"].radius, input[type="tel"].radius, input[type="time"].radius, input[type="url"].radius, input[type="color"].radius, textarea.radius {
+  input[type=text].radius, input[type=password].radius, input[type=date].radius, input[type=datetime].radius, input[type=datetime-local].radius, input[type=month].radius, input[type=week].radius, input[type=email].radius, input[type=number].radius, input[type=search].radius, input[type=tel].radius, input[type=time].radius, input[type=url].radius, input[type=color].radius, textarea.radius {
     border-radius: 3px; }
 
 form .row .prefix-radius.row.collapse input,
@@ -1536,7 +1536,7 @@ form .row .postfix-round.row.collapse .postfix {
   border-bottom-right-radius: 1000px;
   border-top-right-radius: 1000px; }
 
-input[type="submit"] {
+input[type=submit] {
   -webkit-appearance: none;
   -moz-appearance: none;
   border-radius: 0; }
@@ -1596,14 +1596,10 @@ select {
     height: auto; }
 
 /* Adjust margin for form elements below */
-input[type="file"],
-input[type="checkbox"],
-input[type="radio"],
-select {
+input[type=file], input[type=checkbox], input[type=radio], select {
   margin: 0 0 1rem 0; }
 
-input[type="checkbox"] + label,
-input[type="radio"] + label {
+input[type=checkbox] + label, input[type=radio] + label {
   display: inline-block;
   margin-left: 0.5rem;
   margin-right: 1rem;
@@ -1611,7 +1607,7 @@ input[type="radio"] + label {
   vertical-align: baseline; }
 
 /* Normalize file input width */
-input[type="file"] {
+input[type=file] {
   width: 100%; }
 
 /* HTML5 Number spinners settings */
@@ -1656,8 +1652,7 @@ span.error, small.error {
 .error textarea,
 .error select {
   margin-bottom: 0; }
-.error input[type="checkbox"],
-.error input[type="radio"] {
+.error input[type=checkbox], .error input[type=radio] {
   margin-bottom: 1rem; }
 .error label,
 .error label.error {
@@ -1833,8 +1828,7 @@ meta.foundation-mq-topbar {
     margin: 0;
     padding: 0;
     width: 100%; }
-  .top-bar-section .divider,
-  .top-bar-section [role="separator"] {
+  .top-bar-section .divider, .top-bar-section [role=separator] {
     border-top: solid 1px #1a1a1a;
     clear: both;
     height: 1px;
@@ -1859,9 +1853,9 @@ meta.foundation-mq-topbar {
         border-color: #007095;
         color: #FFFFFF; }
         .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
-          background-color: #007095; }
+          background-color: #F50707; }
         .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
-          color: #FFFFFF; }
+          color: #F50707; }
       .top-bar-section ul li > a.button.secondary {
         background-color: #e7e7e7;
         border-color: #b9b9b9;
@@ -1872,7 +1866,7 @@ meta.foundation-mq-topbar {
           color: #333333; }
       .top-bar-section ul li > a.button.success {
         background-color: #43AC6A;
-        border-color: #368a55;
+        border-color: #F50707;
         color: #FFFFFF; }
         .top-bar-section ul li > a.button.success:hover, .top-bar-section ul li > a.button.success:focus {
           background-color: #368a55; }
@@ -2161,7 +2155,7 @@ meta.foundation-mq-topbar {
         background: #333333;
         color: #FFFFFF; }
       .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
-        background-color: #555555;
+        background-color: #F50707;
         color: #FFFFFF;
         background: #222222; }
       .top-bar-section .dropdown li label {
@@ -2170,8 +2164,7 @@ meta.foundation-mq-topbar {
       .top-bar-section .dropdown li .dropdown {
         left: 100%;
         top: 0; }
-    .top-bar-section > ul > .divider,
-    .top-bar-section > ul > [role="separator"] {
+    .top-bar-section > ul > .divider, .top-bar-section > ul > [role=separator] {
       border-right: solid 1px #4e4e4e;
       border-bottom: none;
       border-top: none;
@@ -2266,7 +2259,7 @@ meta.foundation-mq-topbar {
       margin: 0; }
 
 /* Accessibility - hides the forward slash */
-[aria-label="breadcrumbs"] [aria-hidden="true"]:after {
+[aria-label=breadcrumbs] [aria-hidden=true]:after {
   content: "/"; }
 
 .alert-box {
